@@ -1,0 +1,113 @@
+09.10 20:41:04 [Multicraft] Starting server!
+09.10 20:41:04 [Multicraft] Loaded config for "Custom JAR (Place "custom.jar" in base directory)"
+09.10 20:41:07 [Multicraft] Updating eula.txt file
+09.10 20:41:08 [Server] INFO 2023-10-09 20:41:08,710 main WARN Advanced terminal features are not available in this environment
+09.10 20:41:08 [Server] main/INFO [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.20, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+09.10 20:41:08 [Server] main/INFO [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_275 by Oracle Corporation
+09.10 20:41:09 [Server] main/INFO [ne.mi.fm.lo.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+09.10 20:41:09 [Server] main/INFO [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+09.10 20:41:10 [Server] main/INFO [or.sp.fo.ap.lo.mo.li.LibraryManager/]: Scanning and verifying libraries in './sponge-libraries'. Please wait, this may take a moment...
+09.10 20:41:12 [Server] INFO Init ItemPhysic coremods ...
+09.10 20:41:12 [Server] INFO Init CreativeCore coremods ...
+09.10 20:41:12 [Server] main/ERROR [mixin/]: Mixin config notenoughcrashes.mixins.json does not specify "minVersion" property
+09.10 20:41:12 [Server] main/ERROR [mixin/]: Mixin config notenoughcrashes.forge.mixins.json does not specify "minVersion" property
+09.10 20:41:12 [Server] main/ERROR [mixin/]: Mixin config unionlib.mixins.json does not specify "minVersion" property
+09.10 20:41:12 [Server] main/ERROR [mixin/]: Mixin config tiered.mixins.json does not specify "minVersion" property
+09.10 20:41:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [org.infernalstudios.infernalexp.mixin.MixinConnector]
+09.10 20:41:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+09.10 20:41:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+09.10 20:41:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [com.integral.enigmaticlegacy.MixinConnector]
+09.10 20:41:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [com.fuzs.easymagic.mixin.MixinConnector]
+09.10 20:41:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
+09.10 20:41:12 [Server] main/INFO [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+09.10 20:41:14 [Server] main/INFO [co.pe.co.Performant/]: Performant configs loaded
+09.10 20:41:14 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+09.10 20:41:15 [Server] main/WARN [mixin/]: Error loading class: net/minecraft/client/gui/screen/inventory/AnvilScreen (java.lang.ClassNotFoundException: null)
+09.10 20:41:15 [Server] main/WARN [mixin/]: @Mixin target net.minecraft.client.gui.screen.inventory.AnvilScreen was not found anviltweaks.mixins.json:AnvilScreenMixin
+09.10 20:41:15 [Server] main/INFO [ne.mi.co.Co.itemphysic/COREMODLOG]: start
+09.10 20:41:15 [Server] main/INFO [ne.mi.co.Co.itemphysic/COREMODLOG]: find block call
+09.10 20:41:15 [Server] main/WARN [mixin/]: Error loading class: net/minecraft/client/audio/MusicTicker (java.lang.ClassNotFoundException: null)
+09.10 20:41:15 [Server] main/WARN [mixin/]: @Mixin target net.minecraft.client.audio.MusicTicker was not found ostOverhaul.mixins.json:MusicTrackerMixin
+09.10 20:41:15 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+09.10 20:41:15 [Server] INFO [UnionLib Transformer]: Patching ItemStack...
+09.10 20:41:15 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 1
+09.10 20:41:15 [Server] INFO [UnionLib Transformer]: Patch for ItemStack#getAttributeModifiers was successful
+09.10 20:41:16 [Server] main/FATAL [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+09.10 20:41:16 [Server] main/WARN [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+09.10 20:41:16 [Server] main/WARN [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found ars_nouveau.mixins.json:ClientElytraMixin
+09.10 20:41:16 [Server] INFO [UnionLib Transformer]: Patching CraftingResultSlot...
+09.10 20:41:16 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 1
+09.10 20:41:16 [Server] INFO [UnionLib Transformer]: Patch for CraftingResultSlot#onCrafting was successful
+09.10 20:41:18 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+09.10 20:41:19 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching LootTableManager#apply
+09.10 20:41:19 [Server] main/WARN [mixin/]: Error loading class: shadows/apotheosis/ench/table/ApothEnchantContainer (java.lang.ClassNotFoundException: null)
+09.10 20:41:19 [Server] main/WARN [mixin/]: Error loading class: net/darkhax/darkutils/features/charms/CharmEffects (java.lang.ClassNotFoundException: null)
+09.10 20:41:19 [Server] main/WARN [mixin/]: Error loading class: com/brandon3055/csg/ModEventHandler (java.lang.ClassNotFoundException: null)
+09.10 20:41:19 [Server] main/INFO [co.pe.co.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.forge.BasicEventHooksMixin as config disables it.
+09.10 20:41:19 [Server] main/INFO [co.pe.co.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.world.WorldMixin as config disables it.
+09.10 20:41:19 [Server] main/INFO [co.pe.co.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.entity.LivingEntityUpdateEventMixin as config disables it.
+09.10 20:41:24 [Server] INFO [UnionLib Transformer]: Patching StructureStart...
+09.10 20:41:24 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 1
+09.10 20:41:24 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 2
+09.10 20:41:24 [Server] INFO [UnionLib Transformer]: Patch for StructureStart#func_230366_a_ was successful
+09.10 20:41:24 [Server] main/INFO [mixin/]: Mixing MixinEnchantment from assets/enigmaticlegacy/enigmaticlegacy.mixins.json into net.minecraft.enchantment.Enchantment
+09.10 20:41:26 [Server] main/WARN [mixin/]: @Redirect conflict. Skipping abnormals_core.mixins.json:EntityMixin->@Redirect::onEntityWalk(Lnet/minecraft/block/Block;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/Entity;)V with priority 1000, already redirected by mixins.sponge.core.json:world.entity.EntityMixin->@Redirect::impl$onStepOnCollide(Lnet/minecraft/block/Block;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/Entity;)V with priority 1101
+09.10 20:41:26 [Server] INFO Exception in thread "main" [20:41:26] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:39)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: Caused by: java.lang.reflect.InvocationTargetException
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at java.lang.reflect.Method.invoke(Method.java:498)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: ... 7 more
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.block.Blocks.<clinit>(Blocks.java:30)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.world.gen.surfacebuilders.SurfaceBuilder.<clinit>(SurfaceBuilder.java:12)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.world.gen.surfacebuilders.ConfiguredSurfaceBuilders.<clinit>(SourceFile:11)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.WorldGenRegistries.func_243674_g(WorldGenRegistries.java:33)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.WorldGenRegistries.func_243668_a(WorldGenRegistries.java:89)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.WorldGenRegistries.<clinit>(WorldGenRegistries.java:88)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.Registry.<clinit>(Registry.java:464)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.world.DimensionType.<clinit>(SourceFile:62)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.common.world.SpongeWorldTypeEffect$FactoryImpl.<clinit>(SpongeWorldTypeEffect.java:52)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.common.registry.SpongeFactoryProvider.registerDefaultFactories(SpongeFactoryProvider.java:246)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.common.SpongeLifecycle.establishFactories(SpongeLifecycle.java:90)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.Bootstrap.handler$cbm000$forge$startLifecycle(Bootstrap.java:561)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.Bootstrap.func_151354_b(Bootstrap.java)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.server.Main.main(Main.java:92)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: ... 13 more
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Redirector onEntityWalk(Lnet/minecraft/block/Block;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/Entity;)V in abnormals_core.mixins.json:EntityMixin failed injection check, (0/1) succeeded. Scanned 1 target(s). Using refmap abnormals_core.refmap.json
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.postInject(InjectionInfo.java:468)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1362)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1051)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:400)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+09.10 20:41:26 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: ... 38 more
+09.10 20:41:27 [Multicraft] Server shut down (starting)
+09.10 20:41:27 [Multicraft] Restarting crashed server in 10 seconds
+09.10 20:41:27 [Multicraft] Looks like a crash, check the server console. Return value: 1
+09.10 20:41:27 [Multicraft] Server stopped
