@@ -1,172 +1,428 @@
-09.10 21:28:50 [Multicraft] Starting server!
-09.10 21:28:50 [Multicraft] Loaded config for "Custom JAR (Place "custom.jar" in base directory)"
-09.10 21:28:53 [Multicraft] Updating eula.txt file
-09.10 21:28:55 [Server] INFO 2023-10-09 21:28:55,505 main WARN Advanced terminal features are not available in this environment
-09.10 21:28:55 [Server] main/INFO [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.20, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-09.10 21:28:55 [Server] main/INFO [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_275 by Oracle Corporation
-09.10 21:28:56 [Server] main/INFO [ne.mi.fm.lo.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-09.10 21:28:56 [Server] main/INFO [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-09.10 21:28:56 [Server] main/INFO [or.sp.fo.ap.lo.mo.li.LibraryManager/]: Scanning and verifying libraries in './sponge-libraries'. Please wait, this may take a moment...
-09.10 21:28:58 [Server] INFO Init ItemPhysic coremods ...
-09.10 21:28:59 [Server] INFO Init CreativeCore coremods ...
-09.10 21:28:59 [Server] main/ERROR [mixin/]: Mixin config notenoughcrashes.mixins.json does not specify "minVersion" property
-09.10 21:28:59 [Server] main/ERROR [mixin/]: Mixin config notenoughcrashes.forge.mixins.json does not specify "minVersion" property
-09.10 21:28:59 [Server] main/ERROR [mixin/]: Mixin config unionlib.mixins.json does not specify "minVersion" property
-09.10 21:28:59 [Server] main/ERROR [mixin/]: Mixin config tiered.mixins.json does not specify "minVersion" property
-09.10 21:28:59 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [org.infernalstudios.infernalexp.mixin.MixinConnector]
-09.10 21:28:59 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
-09.10 21:28:59 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
-09.10 21:28:59 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [com.integral.enigmaticlegacy.MixinConnector]
-09.10 21:28:59 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [com.fuzs.easymagic.mixin.MixinConnector]
-09.10 21:28:59 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
-09.10 21:28:59 [Server] main/INFO [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-09.10 21:29:01 [Server] main/INFO [co.pe.co.Performant/]: Performant configs loaded
-09.10 21:29:01 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
-09.10 21:29:02 [Server] main/WARN [mixin/]: Error loading class: net/minecraft/client/gui/screen/inventory/AnvilScreen (java.lang.ClassNotFoundException: null)
-09.10 21:29:02 [Server] main/WARN [mixin/]: @Mixin target net.minecraft.client.gui.screen.inventory.AnvilScreen was not found anviltweaks.mixins.json:AnvilScreenMixin
-09.10 21:29:02 [Server] main/INFO [ne.mi.co.Co.itemphysic/COREMODLOG]: start
-09.10 21:29:02 [Server] main/INFO [ne.mi.co.Co.itemphysic/COREMODLOG]: find block call
-09.10 21:29:02 [Server] main/WARN [mixin/]: Error loading class: net/minecraft/client/audio/MusicTicker (java.lang.ClassNotFoundException: null)
-09.10 21:29:02 [Server] main/WARN [mixin/]: @Mixin target net.minecraft.client.audio.MusicTicker was not found ostOverhaul.mixins.json:MusicTrackerMixin
-09.10 21:29:02 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching ItemStack#onItemUse
-09.10 21:29:02 [Server] INFO [UnionLib Transformer]: Patching ItemStack...
-09.10 21:29:02 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 1
-09.10 21:29:02 [Server] INFO [UnionLib Transformer]: Patch for ItemStack#getAttributeModifiers was successful
-09.10 21:29:03 [Server] main/FATAL [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
-09.10 21:29:03 [Server] main/WARN [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
-09.10 21:29:03 [Server] main/WARN [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found ars_nouveau.mixins.json:ClientElytraMixin
-09.10 21:29:03 [Server] INFO [UnionLib Transformer]: Patching CraftingResultSlot...
-09.10 21:29:03 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 1
-09.10 21:29:03 [Server] INFO [UnionLib Transformer]: Patch for CraftingResultSlot#onCrafting was successful
-09.10 21:29:06 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
-09.10 21:29:06 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching LootTableManager#apply
-09.10 21:29:06 [Server] main/WARN [mixin/]: Error loading class: shadows/apotheosis/ench/table/ApothEnchantContainer (java.lang.ClassNotFoundException: null)
-09.10 21:29:06 [Server] main/WARN [mixin/]: Error loading class: net/darkhax/darkutils/features/charms/CharmEffects (java.lang.ClassNotFoundException: null)
-09.10 21:29:06 [Server] main/WARN [mixin/]: Error loading class: com/brandon3055/csg/ModEventHandler (java.lang.ClassNotFoundException: null)
-09.10 21:29:06 [Server] main/INFO [co.pe.co.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.forge.BasicEventHooksMixin as config disables it.
-09.10 21:29:06 [Server] main/INFO [co.pe.co.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.world.WorldMixin as config disables it.
-09.10 21:29:06 [Server] main/INFO [co.pe.co.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.entity.LivingEntityUpdateEventMixin as config disables it.
-09.10 21:29:11 [Server] INFO [UnionLib Transformer]: Patching StructureStart...
-09.10 21:29:11 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 1
-09.10 21:29:11 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 2
-09.10 21:29:11 [Server] INFO [UnionLib Transformer]: Patch for StructureStart#func_230366_a_ was successful
-09.10 21:29:11 [Server] main/INFO [mixin/]: Mixing MixinEnchantment from assets/enigmaticlegacy/enigmaticlegacy.mixins.json into net.minecraft.enchantment.Enchantment
-09.10 21:29:13 [Server] main/INFO [ne.mi.co.Co.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
-09.10 21:29:14 [Server] main/INFO [ne.mi.co.Co.itemphysic/COREMODLOG]: start
-09.10 21:29:14 [Server] main/INFO [ne.mi.co.Co.itemphysic/COREMODLOG]: find block call
-09.10 21:29:14 [Server] main/FATAL [mixin/]: Mixin apply failed tiered.mixins.json:PlayerEntityMixin -> net.minecraft.entity.player.PlayerEntity: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException @At("JUMP") on net/minecraft/entity/player/PlayerEntity::attack with priority 1000 cannot inject into net/minecraft/entity/player/PlayerEntity::func_71059_n(Lnet/minecraft/entity/Entity;)V merged by org.spongepowered.common.mixin.core.world.entity.player.PlayerMixin with priority 1101 [PREINJECT Applicator Phase -> tiered.mixins.json:PlayerEntityMixin -> Prepare Injections ->  -> localvar$blj000$attack(Z)Z -> Prepare]
-09.10 21:29:14 [Server] INFO org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At("JUMP") on net/minecraft/entity/player/PlayerEntity::attack with priority 1000 cannot inject into net/minecraft/entity/player/PlayerEntity::func_71059_n(Lnet/minecraft/entity/Entity;)V merged by org.spongepowered.common.mixin.core.world.entity.player.PlayerMixin with priority 1101 [PREINJECT Applicator Phase -> tiered.mixins.json:PlayerEntityMixin -> Prepare Injections ->  -> localvar$blj000$attack(Z)Z -> Prepare]
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:305) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:240) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:421) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1319) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1042) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:393) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154) ~[modlauncher-8.0.9.jar:8.0.9+86+master.3cf110c] {}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?] {}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?] {}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?] {}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_275] {}
-09.10 21:29:14 [Server] INFO at net.minecraft.block.Blocks.<clinit>(Blocks.java:30) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:object_holder_definalize:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.sponge.tracker.json:world.level.block.BlocksMixin_Tracker,pl:mixin:A,pl:object_holder_definalize:A}
-09.10 21:29:14 [Server] INFO at net.minecraft.world.gen.surfacebuilders.SurfaceBuilder.<clinit>(SurfaceBuilder.java:12) ~[?:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at net.minecraft.world.gen.surfacebuilders.ConfiguredSurfaceBuilders.<clinit>(SourceFile:11) ~[?:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at net.minecraft.util.registry.WorldGenRegistries.func_243674_g(WorldGenRegistries.java:33) ~[?:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at net.minecraft.util.registry.WorldGenRegistries.func_243668_a(WorldGenRegistries.java:89) ~[?:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:1.8.0_275] {}
-09.10 21:29:14 [Server] INFO at net.minecraft.util.registry.WorldGenRegistries.<clinit>(WorldGenRegistries.java:88) ~[?:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at net.minecraft.util.registry.Registry.<clinit>(Registry.java:464) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:computing_frames,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:enhancedcelestials.mixins.json:access.RegistryAccess,pl:mixin:APP:mixins.sponge.api.json:minecraft.core.RegistryMixin_API,pl:mixin:APP:mixins.sponge.core.json:core.RegistryMixin,pl:mixin:A,pl:runtimedistcleaner:A}
-09.10 21:29:14 [Server] INFO at net.minecraft.world.DimensionType.<clinit>(SourceFile:62) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:infernal-expansion.mixins.json:common.MixinDimensionType,pl:mixin:APP:mixins.sponge.accessors.json:world.level.dimension.DimensionTypeAccessor,pl:mixin:APP:enhancedcelestials.mixins.json:access.DimensionTypeAccess,pl:mixin:APP:mixins.sponge.api.json:minecraft.world.level.dimension.DimensionTypeMixin_API,pl:mixin:APP:mixins.sponge.core.json:world.level.dimension.DimensionTypeMixin,pl:mixin:A}
-09.10 21:29:14 [Server] INFO at org.spongepowered.common.world.SpongeWorldTypeEffect$FactoryImpl.<clinit>(SpongeWorldTypeEffect.java:52) ~[spongeforge:1.16.5-36.2.1-8.0.0-RC905] {re:classloading}
-09.10 21:29:14 [Server] INFO at org.spongepowered.common.registry.SpongeFactoryProvider.registerDefaultFactories(SpongeFactoryProvider.java:246) ~[spongeforge:1.16.5-36.2.1-8.0.0-RC905] {re:classloading}
-09.10 21:29:14 [Server] INFO at org.spongepowered.common.SpongeLifecycle.establishFactories(SpongeLifecycle.java:90) ~[spongeforge:1.16.5-36.2.1-8.0.0-RC905] {re:mixin,re:classloading}
-09.10 21:29:14 [Server] INFO at net.minecraft.util.registry.Bootstrap.handler$cbm000$forge$startLifecycle(Bootstrap.java:561) ~[?:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.spongeforge.core.json:server.BootstrapMixin_Forge,pl:mixin:A}
-09.10 21:29:14 [Server] INFO at net.minecraft.util.registry.Bootstrap.func_151354_b(Bootstrap.java) ~[?:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.spongeforge.core.json:server.BootstrapMixin_Forge,pl:mixin:A}
-09.10 21:29:14 [Server] INFO at net.minecraft.server.Main.main(Main.java:92) ~[?:?] {re:classloading,re:mixin,pl:mixin:A}
-09.10 21:29:14 [Server] INFO at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275] {}
-09.10 21:29:14 [Server] INFO at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275] {}
-09.10 21:29:14 [Server] INFO at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275] {}
-09.10 21:29:14 [Server] INFO at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275] {}
-09.10 21:29:14 [Server] INFO at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[custom.jar:36.2] {}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [custom.jar:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [custom.jar:?] {re:classloading}
-09.10 21:29:14 [Server] INFO at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [custom.jar:?] {re:classloading}
-09.10 21:29:14 [Server] INFO Exception in thread "main" [21:29:14] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:39)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: Caused by: java.lang.reflect.InvocationTargetException
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at java.lang.reflect.Method.invoke(Method.java:498)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1061]: ... 7 more
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.block.Blocks.<clinit>(Blocks.java:30)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.world.gen.surfacebuilders.SurfaceBuilder.<clinit>(SurfaceBuilder.java:12)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.world.gen.surfacebuilders.ConfiguredSurfaceBuilders.<clinit>(SourceFile:11)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.WorldGenRegistries.func_243674_g(WorldGenRegistries.java:33)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.WorldGenRegistries.func_243668_a(WorldGenRegistries.java:89)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.WorldGenRegistries.<clinit>(WorldGenRegistries.java:88)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.Registry.<clinit>(Registry.java:464)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.world.DimensionType.<clinit>(SourceFile:62)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.common.world.SpongeWorldTypeEffect$FactoryImpl.<clinit>(SpongeWorldTypeEffect.java:52)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.common.registry.SpongeFactoryProvider.registerDefaultFactories(SpongeFactoryProvider.java:246)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.common.SpongeLifecycle.establishFactories(SpongeLifecycle.java:90)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.Bootstrap.handler$cbm000$forge$startLifecycle(Bootstrap.java:561)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.Bootstrap.func_151354_b(Bootstrap.java)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.server.Main.main(Main.java:92)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: ... 13 more
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [tiered.mixins.json:PlayerEntityMixin] from phase [DEFAULT] in config [tiered.mixins.json] FAILED during APPLY
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:636)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:588)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: ... 38 more
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At("JUMP") on net/minecraft/entity/player/PlayerEntity::attack with priority 1000 cannot inject into net/minecraft/entity/player/PlayerEntity::func_71059_n(Lnet/minecraft/entity/Entity;)V merged by org.spongepowered.common.mixin.core.world.entity.player.PlayerMixin with priority 1101 [PREINJECT Applicator Phase -> tiered.mixins.json:PlayerEntityMixin -> Prepare Injections ->  -> localvar$blj000$attack(Z)Z -> Prepare]
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:305)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:240)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:421)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1319)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1042)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:393)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
-09.10 21:29:14 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: ... 38 more
-09.10 21:29:15 [Multicraft] Server shut down (starting)
-09.10 21:29:15 [Multicraft] Restarting crashed server in 10 seconds
-09.10 21:29:15 [Multicraft] Looks like a crash, check the server console. Return value: 1
-09.10 21:29:15 [Multicraft] Server stopped
+10.10 05:43:50 [Multicraft] Loading server properties
+10.10 05:43:50 [Multicraft] Starting server!
+10.10 05:43:50 [Multicraft] Loaded config for "Custom JAR (Place "custom.jar" in base directory)"
+10.10 05:43:53 [Multicraft] Updating eula.txt file
+10.10 05:43:55 [Server] INFO Using locale en_us and fallback locale zh_cn
+10.10 05:43:55 [Server] INFO Libraries are missing, downloading!
+10.10 05:43:55 [Server] INFO Support MinecraftForge project https://www.patreon.com/LexManos/
+10.10 05:43:55 [Server] INFO forge-1.16.5-36.2.26-installer.jar complete
+10.10 05:43:55 [Server] INFO minecraft_server.1.16.5.jar complete
+10.10 05:43:55 [Server] INFO Forge installation is starting, please wait... 
+10.10 05:43:55 [Server] INFO JVM info: Oracle Corporation - 1.8.0_275 - 25.275-b01
+10.10 05:43:55 [Server] INFO java.net.preferIPv4Stack=true
+10.10 05:43:55 [Server] INFO Found java version 1.8.0_275
+10.10 05:43:56 [Server] INFO Target Directory: .
+10.10 05:43:56 [Server] INFO Data kindly mirrored by CreeperHost at https://www.creeperhost.net/
+10.10 05:43:56 [Server] INFO Extracting main jar:
+10.10 05:43:56 [Server] INFO Extracted successfully
+10.10 05:43:56 [Server] INFO Considering minecraft server jar
+10.10 05:43:56 [Server] INFO Downloading libraries
+10.10 05:43:56 [Server] INFO Found 0 additional library directories
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:forge:1.16.5-36.2.26
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm:9.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm-commons:9.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm-tree:9.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm-util:9.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm-analysis:9.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library cpw.mods:modlauncher:8.1.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library cpw.mods:grossjava9hacks:1.3.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:accesstransformers:3.0.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.antlr:antlr4-runtime:4.9.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:eventbus:4.0.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:forgespi:3.2.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:coremods:4.0.6
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:unsafe:0.2.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.electronwill.night-config:core:3.6.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.electronwill.night-config:toml:3.6.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.jline:jline:3.12.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.apache.maven:maven-artifact:3.6.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.jodah:typetools:0.8.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.apache.logging.log4j:log4j-api:2.15.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.apache.logging.log4j:log4j-core:2.15.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecrell:terminalconsoleappender:1.2.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.sf.jopt-simple:jopt-simple:5.0.4
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.spongepowered:mixin:0.8.4
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:nashorn-core-compat:15.1.1.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.github.jponge:lzma-java:1.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.google.code.findbugs:jsr305:3.0.2
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.google.code.gson:gson:2.8.7
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.google.errorprone:error_prone_annotations:2.1.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.google.guava:guava:20.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.google.guava:guava:25.1-jre
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.google.j2objc:j2objc-annotations:1.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.nothome:javaxdelta:2.0.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library com.opencsv:opencsv:4.4
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library commons-beanutils:commons-beanutils:1.9.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library commons-collections:commons-collections:3.2.2
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library commons-io:commons-io:2.4
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library commons-logging:commons-logging:1.2
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library de.oceanlabs.mcp:mcp_config:1.16.5-20210115.111550@zip
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library de.siegmar:fastcsv:2.0.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.md-5:SpecialSource:1.10.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.md-5:SpecialSource:1.8.5
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:binarypatcher:1.0.12
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:forge:1.16.5-36.2.26:universal
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:installertools:1.2.6
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:jarsplitter:1.1.4
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.minecraftforge:srgutils:0.4.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.sf.jopt-simple:jopt-simple:4.9
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.sf.jopt-simple:jopt-simple:5.0.4
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library net.sf.opencsv:opencsv:2.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.apache.commons:commons-collections4:4.2
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.apache.commons:commons-lang3:3.8.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.apache.commons:commons-text:1.3
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.checkerframework:checker-qual:2.0.0
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.codehaus.mojo:animal-sniffer-annotations:1.14
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm-analysis:6.1.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm-analysis:9.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm-commons:6.1.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm-commons:9.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm-tree:6.1.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm-tree:9.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm:6.1.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library org.ow2.asm:asm:9.1
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Considering library trove:trove:1.0.2
+10.10 05:43:56 [Server] INFO File exists: Checksum validated.
+10.10 05:43:56 [Server] INFO Created Temporary Directory: /tmp/forge_installer5838707132041840316
+10.10 05:43:56 [Server] INFO Extracting: /data/server.lzma
+10.10 05:43:57 [Server] INFO Building Processors
+10.10 05:43:57 [Server] INFO ===============================================================================
+10.10 05:43:57 [Server] INFO MainClass: net.minecraftforge.installertools.ConsoleTool
+10.10 05:43:57 [Server] INFO Classpath:
+10.10 05:43:57 [Server] INFO /./libraries/net/minecraftforge/installertools/1.2.6/installertools-1.2.6.jar
+10.10 05:43:57 [Server] INFO /./libraries/net/md-5/SpecialSource/1.10.0/SpecialSource-1.10.0.jar
+10.10 05:43:57 [Server] INFO /./libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
+10.10 05:43:57 [Server] INFO /./libraries/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar
+10.10 05:43:57 [Server] INFO /./libraries/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar
+10.10 05:43:57 [Server] INFO /./libraries/net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar
+10.10 05:43:57 [Server] INFO /./libraries/com/google/guava/guava/20.0/guava-20.0.jar
+10.10 05:43:57 [Server] INFO /./libraries/com/opencsv/opencsv/4.4/opencsv-4.4.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/ow2/asm/asm/9.1/asm-9.1.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/apache/commons/commons-text/1.3/commons-text-1.3.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+10.10 05:43:57 [Server] INFO /./libraries/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar
+10.10 05:43:57 [Server] INFO /./libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+10.10 05:43:57 [Server] INFO /./libraries/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+10.10 05:43:57 [Server] INFO Args: --task, MCP_DATA, --input, /./libraries/de/oceanlabs/mcp/mcp_config/1.16.5-20210115.111550/mcp_config-1.16.5-20210115.111550.zip, --output, /./libraries/de/oceanlabs/mcp/mcp_config/1.16.5-20210115.111550/mcp_config-1.16.5-20210115.111550-mappings.txt, --key, mappings
+10.10 05:43:57 [Server] INFO Task: MCP_DATA
+10.10 05:43:57 [Server] INFO Input:  /./libraries/de/oceanlabs/mcp/mcp_config/1.16.5-20210115.111550/mcp_config-1.16.5-20210115.111550.zip
+10.10 05:43:57 [Server] INFO Output: /./libraries/de/oceanlabs/mcp/mcp_config/1.16.5-20210115.111550/mcp_config-1.16.5-20210115.111550-mappings.txt
+10.10 05:43:57 [Server] INFO Key:    mappings
+10.10 05:43:57 [Server] INFO Extracting: config/joined.tsrg
+10.10 05:43:57 [Server] INFO ===============================================================================
+10.10 05:43:57 [Server] INFO Cache: 
+10.10 05:43:57 [Server] INFO /./libraries/net/minecraft/server/1.16.5-20210115.111550/server-1.16.5-20210115.111550-slim.jar Validated: 2042be92779b25878580d9c3662756179a5dc55c
+10.10 05:43:57 [Server] INFO /./libraries/net/minecraft/server/1.16.5-20210115.111550/server-1.16.5-20210115.111550-extra.jar Validated: 48927cadca203a714dcc60ee80533c74e74d3a3f
+10.10 05:43:57 [Server] INFO Cache Hit!
+10.10 05:43:57 [Server] INFO ===============================================================================
+10.10 05:43:57 [Server] INFO MainClass: net.md_5.specialsource.SpecialSource
+10.10 05:43:57 [Server] INFO Classpath:
+10.10 05:43:57 [Server] INFO /./libraries/net/md-5/SpecialSource/1.8.5/SpecialSource-1.8.5.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/ow2/asm/asm-commons/6.1.1/asm-commons-6.1.1.jar
+10.10 05:43:57 [Server] INFO /./libraries/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar
+10.10 05:43:57 [Server] INFO /./libraries/com/google/guava/guava/20.0/guava-20.0.jar
+10.10 05:43:57 [Server] INFO /./libraries/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/ow2/asm/asm-analysis/6.1.1/asm-analysis-6.1.1.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/ow2/asm/asm-tree/6.1.1/asm-tree-6.1.1.jar
+10.10 05:43:57 [Server] INFO /./libraries/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
+10.10 05:43:57 [Server] INFO Args: --in-jar, /./libraries/net/minecraft/server/1.16.5-20210115.111550/server-1.16.5-20210115.111550-slim.jar, --out-jar, /./libraries/net/minecraft/server/1.16.5-20210115.111550/server-1.16.5-20210115.111550-srg.jar, --srg-in, /./libraries/de/oceanlabs/mcp/mcp_config/1.16.5-20210115.111550/mcp_config-1.16.5-20210115.111550-mappings.txt
+10.10 05:43:57 [Server] INFO Loading mappings
+10.10 05:43:57 [Server] INFO Loading mappings...  0%
+10.10 05:43:57 [Server] INFO Loading mappings... 10%
+10.10 05:43:57 [Server] INFO Loading mappings... 20%
+10.10 05:43:57 [Server] INFO Loading mappings... 30%
+10.10 05:43:57 [Server] INFO Loading mappings... 40%
+10.10 05:43:57 [Server] INFO Loading mappings... 50%
+10.10 05:43:57 [Server] INFO 0 packages, 5447 classes, 21481 fields, 38359 methods
+10.10 05:43:57 [Server] INFO Remapping final jar
+10.10 05:43:57 [Server] INFO Remapping jar...  0%
+10.10 05:43:59 [Server] INFO Remapping jar... 10%
+10.10 05:44:00 [Server] INFO Remapping jar... 20%
+10.10 05:44:00 [Server] INFO Remapping jar... 30%
+10.10 05:44:01 [Server] INFO Remapping jar... 40%
+10.10 05:44:01 [Server] INFO Remapping jar... 50%
+10.10 05:44:02 [Server] INFO Remapping jar... 60%
+10.10 05:44:02 [Server] INFO Remapping jar... 70%
+10.10 05:44:03 [Server] INFO Remapping jar... 80%
+10.10 05:44:03 [Server] INFO Remapping jar... 90%
+10.10 05:44:03 [Server] INFO Remapping jar... 100%
+10.10 05:44:04 [Server] INFO ===============================================================================
+10.10 05:44:04 [Server] INFO Cache: 
+10.10 05:44:04 [Server] INFO /./libraries/net/minecraftforge/forge/1.16.5-36.2.26/forge-1.16.5-36.2.26-server.jar Validated: 0fa3afa7e3ab98aef47dc027e3e4a6558502df7e
+10.10 05:44:04 [Server] INFO Cache Hit!
+10.10 05:44:04 [Server] INFO The server installed successfully
+10.10 05:44:04 [Server] INFO You can delete this installer file now if you wish
+10.10 05:44:04 [Server] INFO You are running an outdated Java version
+10.10 05:44:04 [Server] INFO Current 1.8.0_275 Recommended 16
+10.10 05:44:04 [Server] INFO Current Java will not be supported in future
+10.10 05:44:07 [Server] INFO 2023-10-10 05:44:07,724 main WARN JNDI lookup class is not available because this JRE does not support JNDI. JNDI string lookups will not be available, continuing configuration. Ignoring java.lang.ClassCastException: class org.apache.logging.log4j.core.lookup.JndiLookup
+10.10 05:44:07 [Server] INFO 2023-10-10 05:44:07,845 main WARN Advanced terminal features are not available in this environment
+10.10 05:44:08 [Server] main/INFO [Arclight/]: 
+10.10 05:44:08 [Server] INFO ___           ___     __   /\
+10.10 05:44:08 [Server] INFO /   | ________/ (_)__ / /  / /
+10.10 05:44:08 [Server] INFO / /| |/ __/ __/ / / _ / _ \/__/
+10.10 05:44:08 [Server] INFO / ___ / / / /_/ / / / / // / /
+10.10 05:44:08 [Server] INFO /_/  |/_/  \__/_/_/\_ /_//_/ /
+10.10 05:44:08 [Server] INFO /__/     \/
+10.10 05:44:08 [Server] INFO Version arclight-1.16.5-1.0.22-3ca639a6
+10.10 05:44:08 [Server] INFO Build Date 2022-02-08 15:26:52
+10.10 05:44:08 [Server] main/INFO [c.m.m.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.26, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+10.10 05:44:08 [Server] main/INFO [c.m.m.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_275 by Oracle Corporation
+10.10 05:44:08 [Server] main/INFO [forge/FixSSL]: Added Lets Encrypt root certificates as additional trust
+10.10 05:44:08 [Server] main/INFO [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+10.10 05:44:11 [Server] INFO Init ItemPhysic coremods ...
+10.10 05:44:12 [Server] INFO Init CreativeCore coremods ...
+10.10 05:44:12 [Server] main/ERROR [mixin/]: Mixin config notenoughcrashes.mixins.json does not specify "minVersion" property
+10.10 05:44:12 [Server] main/ERROR [mixin/]: Mixin config notenoughcrashes.forge.mixins.json does not specify "minVersion" property
+10.10 05:44:12 [Server] main/ERROR [mixin/]: Mixin config unionlib.mixins.json does not specify "minVersion" property
+10.10 05:44:12 [Server] main/ERROR [mixin/]: Mixin config tiered.mixins.json does not specify "minVersion" property
+10.10 05:44:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [org.infernalstudios.infernalexp.mixin.MixinConnector]
+10.10 05:44:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+10.10 05:44:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+10.10 05:44:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [com.integral.enigmaticlegacy.MixinConnector]
+10.10 05:44:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [com.fuzs.easymagic.mixin.MixinConnector]
+10.10 05:44:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
+10.10 05:44:12 [Server] main/INFO [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.impl.ArclightConnector_Forge]
+10.10 05:44:13 [Server] main/INFO [Arclight/]: Arclight core mixin added.
+10.10 05:44:13 [Server] main/INFO [Arclight/]: Arclight optimization mixin added.
+10.10 05:44:13 [Server] main/INFO [c.m.m.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+10.10 05:44:13 [Server] main/INFO [c.p.c.Performant/]: Performant configs loaded
+10.10 05:44:14 [Server] main/INFO [forge/placebo]: Patching LivingEntity#attackEntityFrom
+10.10 05:44:15 [Server] main/WARN [mixin/]: Error loading class: net/minecraft/client/gui/screen/inventory/AnvilScreen (java.lang.ClassNotFoundException: null)
+10.10 05:44:15 [Server] main/WARN [mixin/]: @Mixin target net.minecraft.client.gui.screen.inventory.AnvilScreen was not found anviltweaks.mixins.json:AnvilScreenMixin
+10.10 05:44:15 [Server] main/INFO [forge/itemphysic]: start
+10.10 05:44:15 [Server] main/INFO [forge/itemphysic]: find block call
+10.10 05:44:16 [Server] main/WARN [mixin/]: Error loading class: net/minecraft/client/audio/MusicTicker (java.lang.ClassNotFoundException: null)
+10.10 05:44:16 [Server] main/WARN [mixin/]: @Mixin target net.minecraft.client.audio.MusicTicker was not found ostOverhaul.mixins.json:MusicTrackerMixin
+10.10 05:44:16 [Server] main/INFO [forge/placebo]: Patching ItemStack#onItemUse
+10.10 05:44:16 [Server] INFO [UnionLib Transformer]: Patching ItemStack...
+10.10 05:44:16 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 1
+10.10 05:44:16 [Server] INFO [UnionLib Transformer]: Patch for ItemStack#getAttributeModifiers was successful
+10.10 05:44:16 [Server] main/FATAL [forge/RuntimeDistCleaner]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+10.10 05:44:16 [Server] main/WARN [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+10.10 05:44:16 [Server] main/WARN [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found ars_nouveau.mixins.json:ClientElytraMixin
+10.10 05:44:16 [Server] main/INFO [forge/placebo]: Patching DataPackRegistries#<init>
+10.10 05:44:16 [Server] main/INFO [forge/placebo]: Patching LootTableManager#apply
+10.10 05:44:17 [Server] main/WARN [mixin/]: Error loading class: shadows/apotheosis/ench/table/ApothEnchantContainer (java.lang.ClassNotFoundException: null)
+10.10 05:44:17 [Server] main/WARN [mixin/]: Error loading class: net/darkhax/darkutils/features/charms/CharmEffects (java.lang.ClassNotFoundException: null)
+10.10 05:44:17 [Server] main/WARN [mixin/]: Error loading class: com/brandon3055/csg/ModEventHandler (java.lang.ClassNotFoundException: null)
+10.10 05:44:17 [Server] main/INFO [c.p.c.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.forge.BasicEventHooksMixin as config disables it.
+10.10 05:44:17 [Server] main/INFO [c.p.c.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.world.WorldMixin as config disables it.
+10.10 05:44:17 [Server] main/INFO [c.p.c.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.entity.LivingEntityUpdateEventMixin as config disables it.
+10.10 05:44:21 [Server] main/INFO [mixin/]: Mixing MixinEnchantment from assets/enigmaticlegacy/enigmaticlegacy.mixins.json into net.minecraft.enchantment.Enchantment
+10.10 05:44:21 [Server] INFO [UnionLib Transformer]: Patching StructureStart...
+10.10 05:44:21 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 1
+10.10 05:44:21 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 2
+10.10 05:44:21 [Server] INFO [UnionLib Transformer]: Patch for StructureStart#func_230366_a_ was successful
+10.10 05:44:24 [Server] main/INFO [forge/placebo]: Patching LivingEntity#attackEntityFrom
+10.10 05:44:25 [Server] main/INFO [forge/itemphysic]: start
+10.10 05:44:25 [Server] main/INFO [forge/itemphysic]: find block call
+10.10 05:44:25 [Server] main/INFO [mixin/]: Mixing MixinForgeHooks from assets/enigmaticlegacy/enigmaticlegacy.mixins.json into net.minecraftforge.common.ForgeHooks
+10.10 05:44:25 [Server] INFO [UnionLib Transformer]: Patching CraftingResultSlot...
+10.10 05:44:25 [Server] INFO [UnionLib Transformer]:  Successfully applied patch 1
+10.10 05:44:25 [Server] INFO [UnionLib Transformer]: Patch for CraftingResultSlot#onCrafting was successful
+10.10 05:44:26 [Server] main/INFO [FerriteCore - class definer/]: Using Java 8 class definer
+10.10 05:44:26 [Server] main/ERROR [Implementer/INVENTORY]: Class not found com/google/common/collect/FerriteCoreImmutableMapAccess
+10.10 05:44:26 [Server] main/ERROR [Implementer/INVENTORY]: Class not found com/google/common/collect/FerriteCoreEntrySetAccess
+10.10 05:44:27 [Server] main/WARN [mixin/]: Static binding violation: PRIVATE @Overwrite method func_241440_b_ in mixins.arclight.core.json:inventory.container.ContainerMixin cannot reduce visibiliy of PROTECTED target method, visibility will be upgraded.
+10.10 05:44:27 [Server] main/FATAL [mixin/]: Mixin apply failed mixins.arclight.core.json:entity.CreatureEntityMixin -> net.minecraft.entity.CreatureEntity: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException @At("INVOKE") on net/minecraft/entity/CreatureEntity::arclight$unleashDistance with priority 500 cannot inject into net/minecraft/entity/CreatureEntity::func_110159_bB()V merged by com.performant.coremod.mixin.entity.CreatureEntityMixin with priority 1000 [PREINJECT Applicator Phase -> mixins.arclight.core.json:entity.CreatureEntityMixin -> Prepare Injections ->  -> handler$bio000$arclight$unleashDistance(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> Prepare]
+10.10 05:44:27 [Server] INFO org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At("INVOKE") on net/minecraft/entity/CreatureEntity::arclight$unleashDistance with priority 500 cannot inject into net/minecraft/entity/CreatureEntity::func_110159_bB()V merged by com.performant.coremod.mixin.entity.CreatureEntityMixin with priority 1000 [PREINJECT Applicator Phase -> mixins.arclight.core.json:entity.CreatureEntityMixin -> Prepare Injections ->  -> handler$bio000$arclight$unleashDistance(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> Prepare]
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:305) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:240) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:421) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading,re:classloading}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1319) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1042) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:393) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+10.10 05:44:27 [Server] INFO at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154) ~[modlauncher-8.1.3.jar:8.1.3+8.1.3+main-8.1.x.c94d18ec] {}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?] {}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?] {}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?] {}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:138) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:138) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at net.minecraft.block.Blocks.<clinit>(Blocks.java:256) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:object_holder_definalize:A,re:mixin,pl:accesstransformer:B,pl:object_holder_definalize:A}
+10.10 05:44:27 [Server] INFO at net.minecraft.world.gen.surfacebuilders.SurfaceBuilder.<clinit>(SurfaceBuilder.java:12) ~[?:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at net.minecraft.world.gen.surfacebuilders.ConfiguredSurfaceBuilders.<clinit>(SourceFile:11) ~[?:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at net.minecraft.util.registry.WorldGenRegistries.func_243674_g(WorldGenRegistries.java:33) ~[?:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at net.minecraft.util.registry.WorldGenRegistries.func_243668_a(WorldGenRegistries.java:89) ~[?:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at net.minecraft.util.registry.WorldGenRegistries.<clinit>(WorldGenRegistries.java:88) ~[?:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at net.minecraft.util.registry.Registry.<clinit>(Registry.java:464) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:enhancedcelestials.mixins.json:access.RegistryAccess,pl:mixin:A,pl:runtimedistcleaner:A}
+10.10 05:44:27 [Server] INFO at net.minecraft.util.registry.Bootstrap.func_151354_b(BootstrapMixin.java:38) ~[?:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:util.BootstrapMixin,pl:mixin:A}
+10.10 05:44:27 [Server] INFO at net.minecraft.server.Main.main(MainMixin.java:92) ~[?:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,pl:mixin:A}
+10.10 05:44:27 [Server] INFO at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275] {}
+10.10 05:44:27 [Server] INFO at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge-1.16.5-36.2.26.jar:36.2] {}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge-1.16.5-36.2.26.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge-1.16.5-36.2.26.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge-1.16.5-36.2.26.jar:?] {re:classloading}
+10.10 05:44:27 [Server] INFO at io.izzel.arclight.common.ArclightMain.run(ArclightMain.java:50) [custom.jar:arclight-1.16.5-1.0.22-3ca639a6] {re:classloading}
+10.10 05:44:27 [Server] INFO at io.izzel.arclight.server.Main_Forge.main(Main_Forge.java:16) [custom.jar:arclight-1.16.5-1.0.22-3ca639a6] {re:classloading}
+10.10 05:44:27 [Server] INFO at io.izzel.arclight.server.Launcher.main(Launcher.java:16) [custom.jar:arclight-1.16.5-1.0.22-3ca639a6] {re:classloading}
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:39)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at io.izzel.arclight.common.ArclightMain.run(ArclightMain.java:50)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at io.izzel.arclight.server.Main_Forge.main(Main_Forge.java:16)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:52]: at io.izzel.arclight.server.Launcher.main(Launcher.java:16)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:635]: Caused by: java.lang.reflect.InvocationTargetException
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:635]: at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:635]: at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:635]: at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:635]: at java.lang.reflect.Method.invoke(Method.java:498)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:635]: at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:635]: at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:635]: ... 10 more
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.lang.ClassLoader.defineClass1(Native Method)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:138)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.lang.ClassLoader.defineClass1(Native Method)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:138)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.block.Blocks.<clinit>(Blocks.java:256)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.world.gen.surfacebuilders.SurfaceBuilder.<clinit>(SurfaceBuilder.java:12)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.world.gen.surfacebuilders.ConfiguredSurfaceBuilders.<clinit>(SourceFile:11)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.WorldGenRegistries.func_243674_g(WorldGenRegistries.java:33)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.WorldGenRegistries.func_243668_a(WorldGenRegistries.java:89)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.WorldGenRegistries.<clinit>(WorldGenRegistries.java:88)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.Registry.<clinit>(Registry.java:464)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.util.registry.Bootstrap.func_151354_b(BootstrapMixin.java:38)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: at net.minecraft.server.Main.main(MainMixin.java:92)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:644]: ... 16 more
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.arclight.core.json:entity.CreatureEntityMixin] from phase [DEFAULT] in config [mixins.arclight.core.json] FAILED during APPLY
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:636)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:588)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printStackTrace:668]: ... 46 more
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At("INVOKE") on net/minecraft/entity/CreatureEntity::arclight$unleashDistance with priority 500 cannot inject into net/minecraft/entity/CreatureEntity::func_110159_bB()V merged by com.performant.coremod.mixin.entity.CreatureEntityMixin with priority 1000 [PREINJECT Applicator Phase -> mixins.arclight.core.json:entity.CreatureEntityMixin -> Prepare Injections ->  -> handler$bio000$arclight$unleashDistance(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> Prepare]
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:305)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:240)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:421)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1319)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1042)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:393)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [java.lang.Throwable:printEnclosedStackTrace:710]: ... 46 more
+10.10 05:44:27 [Server] main/INFO [STDERR/]: [io.izzel.arclight.common.ArclightMain:run:53]: Fail to launch Arclight.
+10.10 05:44:28 [Multicraft] Server shut down (starting)
+10.10 05:44:28 [Multicraft] Restarting crashed server in 10 seconds
+10.10 05:44:28 [Multicraft] Server stopped
